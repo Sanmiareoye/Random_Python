@@ -1,0 +1,16 @@
+   Loading image modes
+<- --------------------- ->
+
+-1, cv2.IMREAD_COLOR : loads a color image. Any transparency of image will be neglected. it is the defaukt flag.
+0, cv2.IMREAD_GRAYSCALE : Loads image in grayscale mode
+1, cv2.IMREAD_UNCHANGED : Loads an image as such including alpha channel
+
+an image in ooen cv is a numpy array
+
+#hsv --> hue saturation lightness
+ALOT OF THE ALGORITHMS IN OPEN CV REQUIRE GREYSCALE
+t5
+to convert a color
+BGR_color = np.arrsy([[[255, 0,0]]])
+print(cv2.cvtColor(BGR_color, cv2.COLOR_BGR2HSV)) --> would print hsv
+x[0][0]

@@ -1,0 +1,11 @@
+
+.venv/
+venv/
+
+
+*.mp4
+*.mov
+
+
+__pycache__/
+*.pyc
